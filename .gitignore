@@ -1,0 +1,47 @@
+############################
+# Rust build output
+############################
+target/
+
+############################
+# Rust package lock
+############################
+# Remove this line if you are building a binary application
+# and want reproducible builds
+Cargo.lock
+
+############################
+# Logs
+############################
+*.log
+
+############################
+# Temporary files
+############################
+tmp/
+temp/
+*.tmp
+
+############################
+# OS files
+############################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+############################
+# IDE / Editors
+############################
+.vscode/
+.idea/
+*.iml
+
+############################
+# Rust Analyzer cache
+############################
+.rust-analyzer/
+
+############################
+# Backup files
+############################
+*.rs.bk
